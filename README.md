@@ -6,15 +6,18 @@ To develop an intelligent voice assistant that automates daily tasks, provides i
 
 ## process
 
-- Initialize Text-to-Speech Engine: Set up pyttsx3 to enable Jarvis to speak responses.
-- Greet the User: Check the current time and give a greeting (Good Morning/Afternoon/Evening).
-- Listen for Wake Word: Continuously listen for the wake word “Jarvis” using speech_recognition.
-- Activate on Wake Word: When “Jarvis” is detected, respond immediately and start listening for commands.
-- Process Commands:
--- Search Wikipedia for queries.
-- Open websites like YouTube, Google, LinkedIn, Facebook, Stack Overflow.
-- Play songs from a custom musicLibrary.
-- Provide current time and date.
-- Execute Actions: Perform the requested action through webbrowser or other Python modules.
-- Return to Listening: After executing a command, go back to waiting for the wake word for the next instruction.
-- Exit: Stop the assistant when the user says “sleep,” “exit,” or “quit.”
+- Initialize the text-to-speech engine using pyttsx3 to enable Jarvis to speak.
+  
+- Greet the user based on the current time (morning, afternoon, or evening).
+
+- Continuously listen for the wake word “Jarvis” using speech recognition.
+
+- Respond immediately when the wake word is detected and activate command listening.
+
+- Process commands such as searching Wikipedia, opening websites, playing music, or reporting time and date.
+
+- Execute the requested actions using Python modules and web browser integration.
+
+- Return to listening for the wake word after completing each command.
+
+- Exit the assistant when the user says “sleep,” “exit,” or “quit.”
