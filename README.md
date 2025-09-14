@@ -11,7 +11,7 @@ To develop an intelligent voice assistant that automates daily tasks, provides i
 - Listen for Wake Word: Continuously listen for the wake word “Jarvis” using speech_recognition.
 - Activate on Wake Word: When “Jarvis” is detected, respond immediately and start listening for commands.
 - Process Commands:
-- Search Wikipedia for queries.
+-- Search Wikipedia for queries.
 - Open websites like YouTube, Google, LinkedIn, Facebook, Stack Overflow.
 - Play songs from a custom musicLibrary.
 - Provide current time and date.
