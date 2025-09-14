@@ -21,3 +21,18 @@ To develop an intelligent voice assistant that automates daily tasks, provides i
 - Return to listening for the wake word after completing each command.
 
 - Exit the assistant when the user says “sleep,” “exit,” or “quit.”
+
+## Features
+- Wake word detection (“Jarvis”)
+
+- Voice responses using Text-to-Speech
+
+- Web automation (Google, YouTube, LinkedIn, Stack Overflow)
+
+- Wikipedia search
+
+- Music playback from a library
+
+- Time & date reporting
+
+- Exit commands
